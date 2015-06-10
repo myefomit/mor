@@ -37,7 +37,7 @@ Or install it yourself as:
 
 ## Usage
 
-...
+Here is example - [click](https://github.com/tomcat1911/mor-example)
 
 ## Contributing
 
