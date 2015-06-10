@@ -9,6 +9,16 @@ Key Features:
 3. API only (+ static pages)
 4. ...
 
+## Dev progress
+
+1. Make Mor able to serve assets
+2. We need ORM (actually I think about simple MongoDB adapter, imo it's fit well with our purpose)
+3. Views, erubis, etc.
+
+## General Purpose
+
+To make programmers happy without loosing clarity of development. Typical usecase: Mongo -> Mor -> Angular.js.
+
 ## Installation
 
 Add this line to your application's Gemfile:
