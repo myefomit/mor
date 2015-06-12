@@ -1,6 +1,6 @@
-# Mor 
+# Mor (early stage)
 
-Hello there! This is a simple rack-based lightweight MVC framework (yes, yet another mvc). 
+Hello there! This is a simple rack-based lightweight MVC framework (yes, yet another mvc).
 
 Key Features:  
 
