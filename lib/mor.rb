@@ -14,9 +14,13 @@ module Mor
       controller = klass.new(env)
 
       begin
-        text = controller.send(action)
-      rescue
-        text = Object.const_get("DefaultController").new(env).send("action_error")
+        if controller.methods.include?(action.to_sym)
+          text = controller.send(action)
+        else
+          text = Object.const_get("DefaultController").new(env).send("action_error")
+        end
+      rescue => e
+        raise e        
       end
 
       [200, {'Content-Type' => 'text/html'}, [text]]
